@@ -6,8 +6,8 @@
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
               <h1 class="font-weight-light display-2">Sobre</h1>
-              <h1 class="font-weight-light display-1 mb-3">
-                Lorem ipsum dolor!
+              <h1 class="font-weight-light mb-3">
+                Somos uma empresa de soluções para indústrias. Nosso portfólio compreende uma enorme gama de produtos e serviços destinados principalmente ao segmento metal mecânico e de automação industrial. Há mais de 20 anos levamos soluções e confiabilidade produtiva às empresas que movem o Brasil. Venha fazer parte dessa história!
               </h1>
               <v-row>
                 <v-col cols="12" class="d-flex align-center">

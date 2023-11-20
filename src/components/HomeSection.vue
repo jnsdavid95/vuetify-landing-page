@@ -1,26 +1,23 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/bg.svg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
-            <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
-              </h1>
+            <v-col class="" cols="12" md="6" xl="8">
+              <div>
+                <img src="@/assets/img/smartlogo.svg" alt="">
+              </div>
               <v-btn
                 rounded
                 outlined
                 large
                 dark
                 @click="$vuetify.goTo('#features')"
-                class="mt-5"
+                class="mt-1 btn-saibamais"
               >
                 Saiba mais
-                <v-icon class="ml-2">mdi-arrow-down</v-icon>
+                <v-icon class="ml-4">mdi-arrow-down</v-icon>
               </v-btn>
               <div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
@@ -138,7 +135,7 @@ export default {
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
+          title: "Serviços",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
@@ -271,6 +268,10 @@ export default {
   min-height: 300px;
   padding: 10px;
   transition: 0.5s ease-out;
+}
+
+.btn-saibamais {
+  margin-top: 0px;
 }
 
 .card .v-image {
